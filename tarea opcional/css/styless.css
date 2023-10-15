@@ -1,0 +1,28 @@
+*{
+color: violet;
+font-size: large;
+box-shadow: 0 .5rem 1rem rgba(black, .15);
+}
+
+
+.carousel-indicators{
+color: antiquewhite;
+
+}
+
+.card-body{
+    text-align: center;
+}
+
+.final{
+    text-align: center;
+    text-shadow: none;
+}
+
+
+@media (min-width: 1200px) { 
+    #proyecto{ 
+        width: auto;
+    }
+
+}
