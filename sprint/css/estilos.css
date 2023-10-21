@@ -1,9 +1,3 @@
-main{
-    width: 70%;
-    height: 100vw;
-    box-sizing: border-box;
-}
-
 
 h1{
     color: red;
@@ -15,25 +9,12 @@ h2{
     text-align: center;
 }
 
-.fotopro img{
-    padding-left: 45%;
-
+.fotoprincipal{
+    text-align: center;
 }
 .imagenImportante img{
-    width: 100%;
-    height: auto;
-}
+    text-align: center;
 
-.menu ul li{
-    display: inline;
-    margin-left: 16rem;
-}
-.menu ul li a{
-    text-decoration: none;
-}
-
-.calendario img{
-    margin-left: 25%;
 }
 
 .abajo{
@@ -67,43 +48,14 @@ p{
 
 }
 
-@media (max-width: 768px) {
-    body{
-        font-size: 20px;
-    }
-}
-
-.container {
-    height: 400px;
-    width: 400px;
-    position: relative;
-  }
-
-.image {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-.text {
-    z-index: 100;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    left: 150px;
-    top: 0px;
-  }
-
-<!-- TARJETAS-->
+<!-- tarjetas-->
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-/*Cards*/
+
 .container-card{
     width: 100%;
     display: flex;
@@ -168,15 +120,16 @@ p{
     color: #fff;
 }
 
-.contenedor{
-width: 80%;
-max-width: 100%;
 
-}
+/* funcion para celular*/
 
 @media screen and (max-width: 400px) {
     .contenedor {
         width: 100%;
+    }
+    .fotoprincipal img{
+        display:block;
+        width: 23rem;
     }
     .foto1{
         display:block;
@@ -194,8 +147,7 @@ max-width: 100%;
     }
 
     h4{
-        text-align: left;
-        width: 30rem;
+        text-align: start;
     }
     
     .card{
